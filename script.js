@@ -41,8 +41,4 @@ const moreinformation = contactlist.push({
 
 console.log(contactlist[0]);
 
-contactlist.splice(0, 1);
-
-contactlist.unshift({ id: 2, nombre: "Yesid Vargas", numero: 3133398046 });
-
-console.log(contactlist);
+contactlist.splice(0, 1, "id: 2, name: Jose Yesid Vargas, number: 3133398046");
