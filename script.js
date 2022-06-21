@@ -33,12 +33,12 @@ console.log(contactlist);
 
 const moreinformation = contactlist.push({
   id: 11,
-  nombres: "Nombres",
-  apellido: "Apellidos",
-  telefono: "Numero de contacto",
-  ubicación: { ciudad: "Ciudad", dirección: "Direccion" },
+  nombres: "Alberto ",
+  apellido: "Camargo",
+  telefono: "3123446709",
+  ubicación: { ciudad: "Cali", dirección: "Calle 49 b sur numero 10 c 47" },
 });
 
 console.log(contactlist[0]);
 
-contactlist.splice(0, 1, "id: 2, name: Jose Yesid Vargas, number: 3133398046");
+contactlist.splice(0, 1, {id: 2, name: "Jose Yesid Vargas", number: 3133398046});
